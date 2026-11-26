@@ -6,6 +6,7 @@ Writes a robot vacuum's one-line excuse for missing a spot to entry.txt.
 import os
 from pathlib import Path
 
+# One line, 133 characters, within the 140 character limit.
 LINE = "I didn't miss that spot — my sensors classified the dust bunnies under the sofa as a protected species, and I don't disturb wildlife."
 
 
